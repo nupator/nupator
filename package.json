@@ -9,7 +9,8 @@
     "render:fade": "remotion render src/index.ts FadeInText out/fade-in-text.mp4",
     "render:bouncy": "remotion render src/index.ts BouncyTitle out/bouncy-title.mp4",
     "render:particles": "remotion render src/index.ts ParticleWave out/particle-wave.mp4",
-    "render:all": "npm run render:fade && npm run render:bouncy && npm run render:particles"
+    "render:vial": "remotion render src/index.ts RetatrutideVial out/retatrutide-vial.mp4",
+    "render:all": "npm run render:fade && npm run render:bouncy && npm run render:particles && npm run render:vial"
   },
   "repository": {
     "type": "git",
