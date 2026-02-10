@@ -1,0 +1,32 @@
+{
+  "name": "nupator",
+  "version": "1.0.0",
+  "description": "Programmatic animations with Remotion",
+  "main": "src/index.ts",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts",
+    "render:fade": "remotion render src/index.ts FadeInText out/fade-in-text.mp4",
+    "render:bouncy": "remotion render src/index.ts BouncyTitle out/bouncy-title.mp4",
+    "render:particles": "remotion render src/index.ts ParticleWave out/particle-wave.mp4",
+    "render:all": "npm run render:fade && npm run render:bouncy && npm run render:particles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:29319/git/nupator/nupator"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remotion/cli": "4.0.420",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.420"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.13",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
